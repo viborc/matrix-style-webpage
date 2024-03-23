@@ -9,8 +9,8 @@ const Matrix = () => {
     const ctx = container.getContext("2d");
     const width = container.width;
     const height = container.height;
-    const fontSize = 16;
-    const columns = width / fontSize;
+    const fontSize = 32;
+    const columns = width / fontSize / 2;
     const drops = [];
 
     for (let i = 0; i < columns; i++) {
@@ -42,7 +42,7 @@ const Matrix = () => {
   return (
     <VStack minHeight="100vh" width="full" bg={useColorModeValue("gray.100", "gray.900")} spacing={0}>
       <Box width="full" height="full" position="relative">
-        <canvas ref={containerRef} width={window.innerWidth} height={window.innerHeight} />
+        <canvas ref={containerRef} width={window.innerWidth * 2} height={window.innerHeight * 2} />
       </Box>
     </VStack>
   );
