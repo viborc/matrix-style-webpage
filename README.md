@@ -1,6 +1,6 @@
-# matrix-style-webpage
+# 🇭🇷 Croatian Glagolitic Style Matrix-inspired website.
 
-Make a matrix style webpage showing green letters and symbols in recognizable Matrix fashion style
+Here's a Matrix-style webpage showing green letters and symbols in recognizable Matrix fashion style - but - you using the **Croatian Glagolitic script** instead of regular ASCII characters!
 
 ## Collaborate with GPT Engineer
 
